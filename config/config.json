@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "transactions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/transactions/TransactionsWebPart.js",
+          "manifest": "./src/webparts/transactions/TransactionsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TransactionsWebPartStrings": "lib/webparts/transactions/loc/{locale}.js"
+  }
+}
