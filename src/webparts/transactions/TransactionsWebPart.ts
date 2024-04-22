@@ -30,7 +30,9 @@ export default class TransactionsWebPart extends BaseClientSideWebPart<ITransact
         isDarkTheme: this._isDarkTheme,
         environmentMessage: this._environmentMessage,
         hasTeamsContext: !!this.context.sdks.microsoftTeams,
-        userDisplayName: this.context.pageContext.user.displayName
+        userDisplayName: this.context.pageContext.user.displayName,
+        newspHttpClient: this.context.spHttpClient,
+        newsiteUrl: this.context.pageContext.web.absoluteUrl
       }
     );
 

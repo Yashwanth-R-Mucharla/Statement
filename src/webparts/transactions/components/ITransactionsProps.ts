@@ -4,4 +4,6 @@ export interface ITransactionsProps {
   environmentMessage: string;
   hasTeamsContext: boolean;
   userDisplayName: string;
+  newsiteUrl: string;
+  newspHttpClient: any;
 }
